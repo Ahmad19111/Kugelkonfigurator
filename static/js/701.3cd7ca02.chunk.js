@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkugelkonfigurator=self.webpackChunkkugelkonfigurator||[]).push([[701],{66701:(u,e,k)=>{k.r(e),k.d(e,{default:()=>r.A});var r=k(46946)}}]);

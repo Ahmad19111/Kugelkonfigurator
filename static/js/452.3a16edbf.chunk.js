@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkkugelkonfigurator=self.webpackChunkkugelkonfigurator||[]).push([[452],{54452:(e,u,a)=>{var l=a(24994);Object.defineProperty(u,"__esModule",{value:!0}),u.default=void 0;var r=l(a(40039)),t=a(70579),d=(0,r.default)((0,t.jsx)("path",{d:"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 13.5L7.5 11l1.42-1.41L12 12.67l3.08-3.08L16.5 11 12 15.5z"}),"ExpandCircleDown");u.default=d}}]);
+//# sourceMappingURL=452.3a16edbf.chunk.js.map

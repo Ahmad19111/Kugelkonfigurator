@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkugelkonfigurator=self.webpackChunkkugelkonfigurator||[]).push([[728],{39728:(t,u,e)=>{e.r(u),e.d(u,{buttonClasses:()=>a.A,default:()=>s.A,getButtonUtilityClass:()=>a.B});var s=e(37213),a=e(12912)}}]);

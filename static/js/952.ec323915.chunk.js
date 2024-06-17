@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkugelkonfigurator=self.webpackChunkkugelkonfigurator||[]).push([[952],{62952:(s,e,t)=>{t.r(e),t.d(e,{default:()=>u.A,getSwitchUtilityClass:()=>a.n,switchClasses:()=>a.A});var u=t(19042),a=t(42208)}}]);
