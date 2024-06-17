@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 // Import  Keys-Konstanten und  Komponenten
-import { Keys } from "./Keys.jsx";
-import { SphereNormal } from "./SphereNormal.jsx";
-import { VoronoiSphere } from "./VoronoiSphere.jsx";
-import { Earth } from "./Earth1.jsx";
-import { Durchmesser } from "./Durchmesser";
+import { Keys } from '../Keys.jsx';
+import { SphereNormal } from './SphereNormal.jsx';
+import { VoronoiSphere } from './VoronoiSphere.jsx';
+import { Earth } from './Earth1.jsx';
+import { Durchmesser } from './Durchmesser';
 
 export const Top = (props) => {
   const { form, halter } = props; // Entpackt die 'form'- und 'halter'-Eigenschaften aus den Props

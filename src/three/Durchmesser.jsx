@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 // Import das Keys-Objekt
-import { Keys } from "./Keys.jsx";
+import { Keys } from '../Keys.jsx';
 
 export const Durchmesser = (props) => {
   const { Durchmesser } = props;

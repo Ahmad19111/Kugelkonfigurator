@@ -1,7 +1,7 @@
-// Import die React-Bibliothek, K3Extensions und K3Main, SphereScene Komponente
-import React from "react";
-import { K3Extensions, K3Main } from "@k3/core";
-import { SphereScene } from "./three/SphereScene";
+// Import die React-Bibliothek, K3Main, SphereScene Komponente
+import React from 'react';
+import { K3Main } from '@k3/core';
+import { SphereScene } from './three/SphereScene';
 
 // Erweiterungen die K3 Anwendung
 const extensions = {

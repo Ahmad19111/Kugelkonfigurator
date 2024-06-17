@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 // Import den useGLTF Hook aus der react-three-drei Bibliothek
-import { useGLTF } from "@react-three/drei";
+import { useGLTF } from '@react-three/drei';
 // Import die Durchmesser- und SphereMaterial-Funktion
-import { Durchmesser } from "./Durchmesser";
-import { SphereMaterial } from "./SphereMaterial";
+import { Durchmesser } from './Durchmesser';
+import { SphereMaterial } from './SphereMaterial';
 
 export function VoronoiSphere(props) {
   const diameterScale = Durchmesser(props); // Berechnet den Durchmesser
   // Lädt das GLTF-Modell
-  const { nodes } = useGLTF("./Voronoi/VoronoiSphere.glb");
+  const { nodes } = useGLTF('assets/3D/Voronoi/VoronoiSphere.glb');
   // Render
   return (
     <group {...props} dispose={null} scale={diameterScale}>
@@ -25,4 +25,4 @@ export function VoronoiSphere(props) {
   );
 }
 // Preload des GLTF-Modells
-useGLTF.preload("./Voronoi/VoronoiSphere.glb");
+useGLTF.preload('assets/3D/Voronoi/VoronoiSphere.glb');

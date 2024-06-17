@@ -1,17 +1,17 @@
 // Import von wichtigen Bibliotheken und Komponenten
-import { CanvasWithScreenshotting } from "@k3/core";
+import { CanvasWithScreenshotting } from '@k3/core';
 import {
   Bounds,
   ContactShadows,
   Environment,
   OrbitControls,
   Sky,
-} from "@react-three/drei";
-import { Suspense } from "react";
-import { SuspenseLoader } from "./SuspenseLoader";
-import { Sphere } from "./Sphere.jsx";
-import { Plane } from "./Plane.jsx";
-import React from "react";
+} from '@react-three/drei';
+import { Suspense } from 'react';
+import { SuspenseLoader } from './SuspenseLoader';
+import { Sphere } from './Sphere.jsx';
+import { Plane } from './Plane.jsx';
+import React from 'react';
 
 //SphereScene-Komponente
 export function SphereScene() {

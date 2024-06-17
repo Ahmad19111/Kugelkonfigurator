@@ -2,7 +2,7 @@ import React from 'react';
 // Import den useGLTF Hook aus der react-three-drei Bibliothek
 import { useGLTF } from '@react-three/drei';
 // Import die Keys-Konstanten und die Durchmesser-Funktion aus lokalen Dateien
-import { Keys } from './Keys';
+import { Keys } from '../Keys';
 import { Durchmesser } from './Durchmesser';
 // Import den useTexture Hook aus der react-three-drei Bibliothek
 import { useTexture } from '@react-three/drei';
@@ -48,7 +48,7 @@ export function Hands(props) {
     scale = 15.236;
   }
   // Lädt das GLTF-Modell
-  const { nodes, materials } = useGLTF('./Hands/Hands.glb');
+  const { nodes, materials } = useGLTF('assets/3D//Hands/Hands.glb');
   // Render
   return (
     <group {...props} dispose={null} position={[0, 7.5, 0]}>
@@ -93,4 +93,4 @@ export function Hands(props) {
   );
 }
 // Preload des GLTF-Modells
-useGLTF.preload('./Hands/Hands.glb');
+useGLTF.preload('assets/3D//Hands/Hands.glb');

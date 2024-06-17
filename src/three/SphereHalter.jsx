@@ -1,8 +1,8 @@
 // Import Komponenten und Bibliotheken
-import { Keys } from "./Keys.jsx";
-import { BoxU } from "./Box.jsx";
-import { Hands } from "./Hands.jsx";
-import React from "react";
+import { Keys } from '../Keys.jsx';
+import { BoxU } from './Box.jsx';
+import { Hands } from './Hands.jsx';
+import React from 'react';
 
 export const SphereHalter = (props) => {
   const { halter } = props; // Entpackt die 'halter'-Eigenschaft aus den Props

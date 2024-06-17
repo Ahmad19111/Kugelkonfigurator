@@ -1,5 +1,5 @@
 // Importdie MeshReflectorMaterial-Komponente aus der react-three-drei Bibliothek
-import { MeshReflectorMaterial } from "@react-three/drei";
+import { MeshReflectorMaterial } from '@react-three/drei';
 
 export function Plane() {
   // Render

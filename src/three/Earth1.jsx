@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 // Import den useGLTF Hook aus der react-three-drei Bibliothek
-import { useGLTF } from "@react-three/drei";
+import { useGLTF } from '@react-three/drei';
 // Import die SphereMaterial- und Durchmesser-Funktion
-import { SphereMaterial } from "./SphereMaterial";
-import { Durchmesser } from "./Durchmesser";
+import { SphereMaterial } from './SphereMaterial';
+import { Durchmesser } from './Durchmesser';
 
 export function Earth(props) {
   // Lädt das GLTF-Modell
-  const { nodes } = useGLTF("./Earth/Earth1.glb");
+  const { nodes } = useGLTF('assets/3D/Earth/Earth1.glb');
   const diameterScale = Durchmesser(props); // Berechnet den Durchmesser
   // Render
   return (
@@ -34,4 +34,4 @@ export function Earth(props) {
   );
 }
 // Preload des GLTF-Modells
-useGLTF.preload("./Earth/Earth1.glb");
+useGLTF.preload('assets/3D/Earth/Earth1.glb');
