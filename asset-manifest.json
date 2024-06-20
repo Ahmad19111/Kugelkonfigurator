@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kugelkonfigurator/static/css/main.4253c0bf.css",
-    "main.js": "/kugelkonfigurator/static/js/main.a2a46b1e.js",
+    "main.js": "/kugelkonfigurator/static/js/main.c7d43874.js",
     "static/js/361.2664a1ae.chunk.js": "/kugelkonfigurator/static/js/361.2664a1ae.chunk.js",
     "static/js/952.ec323915.chunk.js": "/kugelkonfigurator/static/js/952.ec323915.chunk.js",
     "static/js/701.3cd7ca02.chunk.js": "/kugelkonfigurator/static/js/701.3cd7ca02.chunk.js",
@@ -52,13 +52,13 @@
     "static/media/nunito-sans-vietnamese-300-normal.woff2": "/kugelkonfigurator/static/media/nunito-sans-vietnamese-300-normal.3e19e07696b48d2fe4e5.woff2",
     "index.html": "/kugelkonfigurator/index.html",
     "main.4253c0bf.css.map": "/kugelkonfigurator/static/css/main.4253c0bf.css.map",
-    "main.a2a46b1e.js.map": "/kugelkonfigurator/static/js/main.a2a46b1e.js.map",
+    "main.c7d43874.js.map": "/kugelkonfigurator/static/js/main.c7d43874.js.map",
     "452.3a16edbf.chunk.js.map": "/kugelkonfigurator/static/js/452.3a16edbf.chunk.js.map",
     "82.0a132910.chunk.js.map": "/kugelkonfigurator/static/js/82.0a132910.chunk.js.map",
     "47.df9d4a8d.chunk.js.map": "/kugelkonfigurator/static/js/47.df9d4a8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4253c0bf.css",
-    "static/js/main.a2a46b1e.js"
+    "static/js/main.c7d43874.js"
   ]
 }
