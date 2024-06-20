@@ -10,16 +10,14 @@ export function SphereNormal(props) {
   // Render
   return (
     <>
-      <mesh {...props} castShadow>
-        <Sphere
-          args={[diameterScale, 64, 32, 6, Math.PI * 2, 0, 3.14]}
-          matrixWorldAutoUpdate={undefined}
-          getObjectsByProperty={undefined}
-          getVertexPosition={undefined}
-        >
-          <SphereMaterial {...props} />
-        </Sphere>
-      </mesh>
+      <Sphere
+        args={[diameterScale, 64, 32, 6, Math.PI * 2, 0, 3.14]}
+        matrixWorldAutoUpdate={undefined}
+        getObjectsByProperty={undefined}
+        getVertexPosition={undefined}
+      >
+        <SphereMaterial {...props} />
+      </Sphere>
     </>
   );
 }
