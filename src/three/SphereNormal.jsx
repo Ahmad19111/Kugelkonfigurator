@@ -11,9 +11,11 @@ export function SphereNormal(props) {
   return (
     <>
       <mesh {...props} castShadow>
-        <Sphere args={[diameterScale, 64, 32, 6, Math.PI * 2, 0, 3.14]}>
+        {/* <Sphere args={[diameterScale, 64, 32, 6, Math.PI * 2, 0, 3.14]}>
           <SphereMaterial {...props} />
-        </Sphere>
+        </Sphere> */}
+        <sphereGeometry />
+        <SphereMaterial {...props} />
       </mesh>
     </>
   );
